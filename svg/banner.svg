@@ -1,19 +1,24 @@
 <svg width="1280" height="720" viewBox="0 0 1280 720" fill="none" xmlns="http://www.w3.org/2000/svg">
-<circle style="mix-blend-mode:lighten" cx="695.727" cy="415.727" r="109.454" fill="#15C7FF"/>
-<ellipse style="mix-blend-mode:lighten" cx="586.273" cy="415.727" rx="109.454" ry="109.454" fill="#15FFCC"/>
-<ellipse style="mix-blend-mode:lighten" cx="641" cy="306.273" rx="109.454" ry="109.454" fill="#FF4D4D"/>
+<g clip-path="url(#clip0)">
+<circle style="mix-blend-mode:lighten" cx="695.668" cy="415.668" r="109.336" fill="#15C7FF"/>
+<ellipse style="mix-blend-mode:lighten" cx="586.332" cy="415.668" rx="109.336" ry="109.336" fill="#15FFCC"/>
+<ellipse style="mix-blend-mode:lighten" cx="641" cy="306.332" rx="109.336" ry="109.336" fill="#FF4D4D"/>
 <g filter="url(#filter0_b)">
-<rect x="329.665" y="49.665" width="622.67" height="622.67" fill="white" fill-opacity="0.01"/>
+<rect x="2" width="1278" height="722" fill="white" fill-opacity="0.01"/>
 </g>
-<circle style="mix-blend-mode:lighten" cx="689.646" cy="409.646" r="97.2922" fill="#15C7FF"/>
-<ellipse style="mix-blend-mode:lighten" cx="592.354" cy="409.646" rx="97.2922" ry="97.2922" fill="#15FFCC"/>
-<ellipse style="mix-blend-mode:lighten" cx="641" cy="312.354" rx="97.2922" ry="97.2922" fill="#FF4D4D"/>
+<circle style="mix-blend-mode:lighten" cx="689.594" cy="409.594" r="97.1875" fill="#15C7FF"/>
+<ellipse style="mix-blend-mode:lighten" cx="592.406" cy="409.594" rx="97.1875" ry="97.1875" fill="#15FFCC"/>
+<ellipse style="mix-blend-mode:lighten" cx="641" cy="312.406" rx="97.1875" ry="97.1875" fill="#FF4D4D"/>
+</g>
 <defs>
-<filter id="filter0_b" x="229.665" y="-50.335" width="822.67" height="822.67" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<filter id="filter0_b" x="-98" y="-100" width="1478" height="922" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
 <feFlood flood-opacity="0" result="BackgroundImageFix"/>
 <feGaussianBlur in="BackgroundImage" stdDeviation="50"/>
 <feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur"/>
 <feBlend mode="normal" in="SourceGraphic" in2="effect1_backgroundBlur" result="shape"/>
 </filter>
+<clipPath id="clip0">
+<rect width="1280" height="720" fill="white"/>
+</clipPath>
 </defs>
 </svg>
