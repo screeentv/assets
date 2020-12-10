@@ -3,7 +3,7 @@
 <ellipse style="mix-blend-mode:lighten" cx="422" cy="602" rx="180" ry="180" fill="#15FFCC"/>
 <ellipse style="mix-blend-mode:lighten" cx="512" cy="422" rx="180" ry="180" fill="#FF4D4D"/>
 <g filter="url(#filter0_b)">
-<rect width="1024" height="1024" fill="white" fill-opacity="0.01"/>
+<rect width="1024" height="1024" fill="url(#paint0_radial)" fill-opacity="0.01"/>
 </g>
 <circle style="mix-blend-mode:lighten" cx="592" cy="592" r="160" fill="#15C7FF"/>
 <ellipse style="mix-blend-mode:lighten" cx="432" cy="592" rx="160" ry="160" fill="#15FFCC"/>
@@ -15,5 +15,9 @@
 <feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur"/>
 <feBlend mode="normal" in="SourceGraphic" in2="effect1_backgroundBlur" result="shape"/>
 </filter>
+<radialGradient id="paint0_radial" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(512 512) rotate(90) scale(512)">
+<stop offset="0.625" stop-color="white"/>
+<stop offset="1" stop-color="white" stop-opacity="0"/>
+</radialGradient>
 </defs>
 </svg>

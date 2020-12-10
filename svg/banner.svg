@@ -4,7 +4,7 @@
 <ellipse style="mix-blend-mode:lighten" cx="586.332" cy="415.668" rx="109.336" ry="109.336" fill="#15FFCC"/>
 <ellipse style="mix-blend-mode:lighten" cx="641" cy="306.332" rx="109.336" ry="109.336" fill="#FF4D4D"/>
 <g filter="url(#filter0_b)">
-<rect x="2" width="1278" height="722" fill="white" fill-opacity="0.01"/>
+<rect x="2" width="1278" height="722" fill="url(#paint0_radial)" fill-opacity="0.01"/>
 </g>
 <circle style="mix-blend-mode:lighten" cx="689.594" cy="409.594" r="97.1875" fill="#15C7FF"/>
 <ellipse style="mix-blend-mode:lighten" cx="592.406" cy="409.594" rx="97.1875" ry="97.1875" fill="#15FFCC"/>
@@ -17,6 +17,10 @@
 <feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur"/>
 <feBlend mode="normal" in="SourceGraphic" in2="effect1_backgroundBlur" result="shape"/>
 </filter>
+<radialGradient id="paint0_radial" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(641 361) rotate(90) scale(361 639)">
+<stop offset="0.494792" stop-color="white"/>
+<stop offset="1" stop-color="white" stop-opacity="0"/>
+</radialGradient>
 <clipPath id="clip0">
 <rect width="1280" height="720" fill="white"/>
 </clipPath>
