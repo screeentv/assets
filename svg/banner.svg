@@ -1,6 +1,19 @@
 <svg width="1280" height="720" viewBox="0 0 1280 720" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path fill-rule="evenodd" clip-rule="evenodd" d="M745.787 320.433C746.367 315.926 746.667 311.332 746.667 306.667C746.667 247.756 698.91 200 640 200C581.09 200 533.333 247.756 533.333 306.667C533.333 311.332 533.633 315.926 534.214 320.433C501.846 338.748 480 373.489 480 413.333C480 472.244 527.756 520 586.667 520C606.095 520 624.311 514.806 640 505.73C655.689 514.806 673.905 520 693.333 520C752.244 520 800 472.244 800 413.333C800 373.489 778.154 338.748 745.787 320.433Z" fill="#1C1C24"/>
-<circle cx="693.333" cy="413.333" r="106.667" fill="#15C7FF" style="mix-blend-mode:lighten"/>
-<ellipse cx="586.667" cy="413.333" rx="106.667" ry="106.667" fill="#15FFCC" style="mix-blend-mode:lighten"/>
-<circle cx="640" cy="306.667" r="106.667" fill="#FF4D4D" style="mix-blend-mode:lighten"/>
+<circle style="mix-blend-mode:lighten" cx="695.727" cy="415.727" r="109.454" fill="#15C7FF"/>
+<ellipse style="mix-blend-mode:lighten" cx="586.273" cy="415.727" rx="109.454" ry="109.454" fill="#15FFCC"/>
+<ellipse style="mix-blend-mode:lighten" cx="641" cy="306.273" rx="109.454" ry="109.454" fill="#FF4D4D"/>
+<g filter="url(#filter0_b)">
+<rect x="329.665" y="49.665" width="622.67" height="622.67" fill="white" fill-opacity="0.01"/>
+</g>
+<circle style="mix-blend-mode:lighten" cx="689.646" cy="409.646" r="97.2922" fill="#15C7FF"/>
+<ellipse style="mix-blend-mode:lighten" cx="592.354" cy="409.646" rx="97.2922" ry="97.2922" fill="#15FFCC"/>
+<ellipse style="mix-blend-mode:lighten" cx="641" cy="312.354" rx="97.2922" ry="97.2922" fill="#FF4D4D"/>
+<defs>
+<filter id="filter0_b" x="229.665" y="-50.335" width="822.67" height="822.67" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feGaussianBlur in="BackgroundImage" stdDeviation="50"/>
+<feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_backgroundBlur" result="shape"/>
+</filter>
+</defs>
 </svg>
